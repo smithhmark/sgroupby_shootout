@@ -13,6 +13,12 @@ the goal is to demonstrate a variety of approaches, and understand trade offs be
 
 ### Phase 1
 The first phase is to do some "hard-coded" group bys. 
+
+examples:
+ - In the dev data:
+   - what is highest number of new cases in a day any country has seen?
+   - what country had the most new cases on `<specific date>`
+
 Candidates for the first round:
  - Python
    - naive python
