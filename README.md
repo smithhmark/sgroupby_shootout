@@ -51,3 +51,6 @@ once `cd data/ ; ./fetch_dev_data.sh ; cd -` is run, there will be a csv file in
 
 ### Shootout data
 TBD
+possible test datasets:
+ - https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data
+ - https://www.yelp.com/dataset
