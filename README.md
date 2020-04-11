@@ -1,9 +1,39 @@
 # sgroupby_shootout
 A shootout between different limited group-bys
 
+## Introduction
+There is a need to do a style of group-by on data on the filesystem. The specif need is the highest scoring label-score pair in the sets of records identified by a key-value. Basically a group-by with a series of maxes
+
+the goal is to demonstrate a variety of approaches, and understand trade offs between:
+ - CPU
+ - Memory
+ - IO
+
+## Plan
+
+### Phase 1
+The first phase is to do some "hard-coded" group bys. 
+Candidates for the first round:
+ - Python
+   - naive python
+   - pandas
+ - sqlite
+ - awk
+ - C++
+ - Rust
+ - Haskell
+ - Erlang
+
+### Phase 2
+Mostly as a kata, built out command-line tools for doing real work in several of the approaches tested in Phase 1.
+early candidats are:
+ - C++
+ - Python
+ - Rust
+ - Haskell
+
 ## Data
 In order to group-by anything, we need tablular data. To do meaningful performance comparisons, we need some moderately large amount of data.
-
 
 ### Developement data
 Using data from [ourworldindata.org](https://ourworldindata.org/coronavirus-source-data) is both topical and straightforward.
